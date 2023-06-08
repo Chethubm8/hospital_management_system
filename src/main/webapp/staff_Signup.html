@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>enter staff details</h1>
+    <form action="staffsignup" method="post">
+    <table>
+    <tr>
+     <th><label for="name"><b>Name:</b></label></th>
+     <th><input type="text" name="name" id="name" placeholder="name"></th>
+    </tr>
+    <tr>
+    <th><label for="email"><b>email:</b></label></th>
+    <th><input type="email" name="email" id="email" placeholder="email"></th>
+    </tr>
+    <tr>
+        <th><label for="password"><b>password</b></label></th>
+          <th><input type="password" name="password" id="password" placeholder="password"></th>
+    </tr>
+    <tr>
+    <th><label for="dob"><b>Dateofbirth:</b></label></th>
+            <th>
+            <input type="date" name="dob" id="dob" ></th>
+    </tr>
+    <tr>
+    <th><label for="mobile"><b>Mobile</b></label></th>
+    <th><input type="number" name="mobile" id="mobile" pattern="{0-9}[10]"></th>
+    </tr>
+    <tr> <th><label for="gender"><b>Gender</b></label></th>
+     <th><input type="radio" name="gender" id="gender" value="male" id="gender">Male
+      <input type="radio" name="gender" id="gender" value="female" id="gender">female</th>
+    </tr>
+   </table>
+<button type="submit">save</button>
+<button type="reset">cancel</button>
+  </form>
+  <a href="selectRole.html"><button>back</button></a>
+</body>
+</html>
